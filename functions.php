@@ -59,7 +59,7 @@ add_action('wp_head', 'viewport_responsive_meta');
 
 function respond_scripts() {?>
 <!--[if lt IE 9]>
-    <script src="<?php echo get_bloginfo('stylesheet_directory'); ?>/custom/respond.min.js" type="text/javascript"></script>
+    <script src="<?php echo get_bloginfo('stylesheet_directory'); ?>/js/respond.min.js" type="text/javascript"></script>
 <![endif]-->
 <?php }
 add_action('wp_head','respond_scripts');
