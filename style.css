@@ -101,7 +101,9 @@ margin:10px auto; padding:0;
 }
 
 
-
+.entry-content img {
+	margin:0;
+}
 
 /* MEDIA QUERY based on work by helgatheviking
 https://github.com/helgatheviking/Thematic-Adaptive */
