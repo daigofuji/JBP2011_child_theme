@@ -144,7 +144,8 @@ body {
     position:relative;
 }
 #branding, #header, #footer {
-    width:1218px;
+    max-width:1218px;
+    width:97.59615%;
     margin:0 auto;
 }
 #access {
@@ -153,29 +154,33 @@ body {
     overflow:hidden;
 }
 .menu {
-    width:1218px;
+    max-width:1218px;
+    width:97.59615%;
     margin:0 auto;
 }
 #main {
-    width:1248px;
+    max-width:1248px;
+    width:100%;
     margin:0 auto;
     overflow:hidden;
     position:relative;
 }
 #container {
-    width:802px;
+    max-width:802px;
+    width:64.26282%;
     float:left;
 	margin:0 0 0 15px;
 }
 #content {
-    width:100%px;
+    width:100%;
     overflow:hidden;
 }
 .main-aside {
-    width:386px;
+    max-width:386px;
+    width:30.92948%;
     float:right;
     position:relative;
-    right:15px;
+    right:1.20192%;
 }
 #secondary {
     clear:right;
@@ -184,12 +189,14 @@ body {
     clear:both;
 }
 #subsidiary {
-    width:1218px;
+    max-width:1218px;
+    width:97.59615%;
     margin:0 auto;
     overflow:hidden;
 }
 #subsidiary .aside {
-    width:386px;
+    max-width:386px;
+    width:30.92948%;
     float:left;
     margin:0 30px 0 0;
 }
@@ -198,7 +205,8 @@ body {
 }
 #siteinfo {
     clear:both;
-    width:1218px;
+    max-width:1218px;
+    width:97.59615%;
     margin:0 auto;
 }
 
@@ -210,8 +218,9 @@ body {
 */
 
 .page-template-template-page-fullwidth-php #container {
-	margin: 0 0 0 15px;
-    width: 1218px;
+	margin: 0 0 0 1.20192%;
+    max-width:1218px;
+    width:97.59615%;
 }
 
 .page-template-template-page-fullwidth-php #content {
@@ -220,7 +229,8 @@ body {
 }
 
 .page-template-template-page-fullwidth-php #comments {
-    width:698px;
+    max-width:698px;
+    width:55.92948%;
 }
 
 
@@ -241,41 +251,41 @@ px      84		168		252		336		420		504		588		672		756		840		924		1008
 	}
 
 	#branding, #header, #footer {
-		width:978px;
+		/* width:978px; */
 	}
 	#header-aside, #access {
-		width:978px;
+		/* width:978px; */
 	}
 	#main {
-		width:1002px;
+		/* width:1002px; */
 	}
 	#container {
-		width:642px;
+		/* width:642px;
 		float:left;
-		margin:0 0 0 12px;
+		margin:0 0 0 12px; */
 	}
 	#content {
 		width:100%;
 		overflow:hidden;
 	}
 	.main-aside {
-		width:302px;
+		/* width:302px;
 		float:right;
 		position:relative;
-		right:12px;
+		right:12px; */
 	}
 	#subsidiary {
-		width:978px;
+		/* width:978px; */
 	}
 	#subsidiary .aside {
-		width:306px;
-		margin:0 30px 0 0;
+		/* width:306px;
+		margin:0 30px 0 0; */ 
 	}
 	#subsidiary #third {
 		margin-right:0;
 	}
 	#siteinfo {
-		width:978px;
+		/* width:978px; */
 	}
 
 	/* =Page Templates
@@ -286,7 +296,7 @@ px      84		168		252		336		420		504		588		672		756		840		924		1008
 	*/
 
 	.page-template-template-page-fullwidth-php #container {
-		width:978px;
+		/* width:978px; */
 	}
 
 	.page-template-template-page-fullwidth-php #content {
@@ -294,7 +304,7 @@ px      84		168		252		336		420		504		588		672		756		840		924		1008
 	}
 
 	.page-template-template-page-fullwidth-php #comments {
-		width:558px;
+		/* width:558px; */
 	}
 
 	
@@ -324,7 +334,7 @@ px      64		128		192		256		320		384		448		512		576		640
 		position:relative;
 	}
 	#branding, #header, #footer {
-		width:748px;
+		/* width:748px; */
 		margin:0 auto;
 	}
 	#access {
@@ -332,17 +342,17 @@ px      64		128		192		256		320		384		448		512		576		640
 		overflow:hidden;
 	}
 	#header-aside, #access  {
-		width:748px;
+		/* width:748px; */
 		margin:0 auto;
 	}
 	#main {
-		width:768px;
+		/* width:768px; */
 		margin:0 auto;
 		overflow:hidden;
 		position:relative;
 	}
 	#container {
-		width:492px;
+		/* width:492px; */
 		float:left;
 		margin:0 0 0 10px;
 	}
@@ -354,27 +364,27 @@ px      64		128		192		256		320		384		448		512		576		640
 		width:236px;
 		float:right;
 		position:relative;
-		right:10px;
+		/* right:10px; */
 	}	
 	#footer {    
 		clear:both;
 	}
 	#subsidiary {
-		width:748px;
+		/* width:748px; */
 		margin:0 auto;
 		overflow:hidden;
 	}
 	#subsidiary .aside {
 		width:236px;
 		float:left;
-		margin:0 20px 0 0;
+		/* margin:0 20px 0 0; */
 	}
 	#subsidiary #third {
 		margin:0;
 	}
 	#siteinfo {
 		clear:both;
-		width:748px;
+		/* width:748px; */
 		margin:0 auto;
 	}
 	.aside th, .aside td {
@@ -392,17 +402,17 @@ px      64		128		192		256		320		384		448		512		576		640
 	*/
 
 	.page-template-template-page-fullwidth-php #container {
-		margin:0 10px 0 0;
-		width:748px;
+		/* margin:0 10px 0 0;
+		width:748px; */
 	}
 
 	.page-template-template-page-fullwidth-php #content {
 		margin: 0 0 0 0px;
-		width:748px;
+		/* width:748px; */
 	}
 
 	.page-template-template-page-fullwidth-php #comments {
-		width:492px;
+		/* width:492px; */
 	}
 	
 }
