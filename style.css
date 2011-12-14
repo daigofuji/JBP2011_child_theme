@@ -65,6 +65,37 @@ Thematic is © Ian Stewart http://themeshaper.com/
     	vertical-align: top;
     	}	
     	
+    		table.stats {
+			margin-bottom: 1em;
+			border-top: 1px solid #ccc;
+			border-left: 1px solid #ccc;
+			border-collapse: collapse;
+			font-family: sans-serif
+			}
+	
+		table.stats th  {
+			background: #ddd;
+			}
+	
+		table.stats th.caption  {
+			background: #ddd;
+			}
+	
+		table.stats th, table.stats td {
+			padding: 3px 2px;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			font-size: .83em;
+			line-height: .9em;
+			font-family: sans-serif
+			}
+
+	
+		table.stats td {
+			vertical-align: top;
+			}	
+			
+    	
 .caption, .photocaption, tfoot td {
 	margin-top: 0;
 	font-size:80%;
