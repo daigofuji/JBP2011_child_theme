@@ -36,8 +36,14 @@ add_filter('wp_page_menu_args','childtheme_menu_args', 20);
  function childtheme_gfontapi() { ?>
     <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
 <?php }
- 
 add_action('wp_head', 'childtheme_gfontapi');
+
+
+ // rel=author for google http://yoast.com/push-rel-author-head/
+ function childtheme_relauthor() { ?>
+    <link rel="author" href="https://plus.google.com/102196253927230918215/posts"/>
+<?php } 
+add_action('wp_head', 'childtheme_relauthor');
 
 
 // changing login logo
