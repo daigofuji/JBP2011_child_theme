@@ -32,6 +32,8 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* Prepare theme for plugins */
 @import url('../thematic/library/styles/plugins.css');
 
+/* responsive table from zurb http://zurb.com/playground/responsive-tables */
+@import url("css/responsive-tables.css");
 
 
 /* table - chart */	
