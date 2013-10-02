@@ -35,6 +35,12 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* responsive table from zurb http://zurb.com/playground/responsive-tables */
 @import url("css/responsive-tables.css");
 
+/* larger text override */
+
+.entry-content {
+	font: 18px Georgia,serif;
+	line-height: 28px;
+}
 
 /* table - chart */	
 	
